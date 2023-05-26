@@ -17,7 +17,8 @@ public class Chauffage
 
     public String toString()
     {
-        return this.state ? "Le chauffage est allumé, la température est de : " + currentTemp : "Le chauffage est éteint";
+        return this.state ? "Le chauffage est allumé, la température est de : " + currentTemp + "°" : "Le chauffage " +
+                "est éteint la température est de " + currentTemp + "°";
     }
 
     public void increaseTemp()
